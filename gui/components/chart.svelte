@@ -29,7 +29,7 @@ export let showLabelsY = true;
 export let disableAnimation = false;
 export let intersect = false;
 
-options = deepmerge({
+$: options = deepmerge({
   animation: disableAnimation ? false : undefined,
   interaction: {
     intersect,
